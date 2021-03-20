@@ -261,6 +261,10 @@ for slug in urls:
 -почему у меня не работает модуль регулярных выражений re с методом compile
    find_a_by_text_re_compile = soup.find("a", text=re.compile("Одежда"))
    print(find_a_by_text_re_compile)
+   
+- Что за параметры у записи:
+with open("all_categories_dict.json", "w") as file:
+    json.dump(all_categories_dict, file, indent=4, ensure_ascii=False)
 
 
 '''
